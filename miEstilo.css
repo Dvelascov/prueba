@@ -1,0 +1,15 @@
+/* id */
+#p{
+    color: blue;
+}
+/* clase */
+.p{
+    color: red;
+}
+/* parrafo */
+p{
+    color: green;
+}
+a{
+    color: inherit;
+}
