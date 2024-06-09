@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+.parrafo1{
+    color: salmon;
+}
+
+.parrafo2{
+    color: red;
+}
+p{
+    color: rgb(10, 245, 80);
+}
+#encabezado{
+    color: skyblue;
+}
+/* Style the header */
+header {
+
+  background-color: rgb(58, 152, 180);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(49, 129, 69);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: rgb(250, 255, 251);
+  padding: 20px;
+}
+
+nav ol a {
+  list-style-type: none;
+  padding: 0;
+  color: violet;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  color: rgb(228, 253, 0);
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #940c67d7;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
